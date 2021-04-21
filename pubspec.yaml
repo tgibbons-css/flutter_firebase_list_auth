@@ -24,6 +24,13 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^4.3.3   # needed for ChangeNotifier
+  # Add the dependency for the Firebase Core Flutter SDK
+  firebase_core: ^1.0.3
+  # Add the dependencies for any other Firebase products you want to use in your app
+  # For example, to use Firebase Authentication and Cloud Firestore
+  cloud_firestore: ^1.0.4
+  firebase_auth: ^1.0.0
+  google_sign_in: ^5.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
